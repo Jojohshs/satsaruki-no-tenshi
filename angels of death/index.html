@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Satsaruki no tenshi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&family=Poppins:wght@300;500;800&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="src/css/reset.css">
+        <link rel="stylesheet" href="src/css/estilos.css">
+        <link rel="stylesheet" href="src/css/responsivo.css">
+      
+
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img class="logo" src="src/imagens/angels of death-logo 2.jpe" alt="Logo x-men">
+    </header> 
+
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+            <h1 class="titulo"> Selecione um personagem</h1>
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="ray" data-name="Rachel" data-description="Ela foi oferecida como um sacrifício para os floor masters do B6 ao B1.">
+                    <img src="src/imagens/card-ray.jpg" alt="Personagem Rachel" >
+                </li>
+                <li class="personagem" id="Zack" data-name="Zack" data-description="Mestre do andar B6, busca matar Rachel.">
+                    <img src="src/imagens/card-Zack.jpg" alt="Personagem Zack">
+                </li>
+                <li class="personagem" id="danny" data-name="Danny"data-description="Mestre do B5 e terrapeuta de Rachel, quer os seus olhos.">
+                    <img src="src/imagens/card-Danny.jpg" alt="Personagem Danny">
+                </li>
+                <li class="personagem" id="eddie" data-name="Eddie" data-description="Mestre do B4, quer enterrar Rachel para ela ser só dele">
+                    <img src="src/imagens/card-eddie.jpg" alt="Personagem Eddie">
+                </li>
+                <li class="personagem" id="grey" data-name="Grey" data-description="Floor master do B2, quer saber qual é a 'essência' da Rachel.">
+                    <img src="src/imagens/card-grey.jpg" alt="Personagem Grey">
+                </li>
+                <li class="personagem" id="Cathy" data-name="Cathy" data-description="Floor master do B3, quer torturar Rachel">
+                    <img src="src/imagens/card-cathy.jpg" alt="Personagem Cathy">
+                </li>
+                
+                </li>
+            </ul>
+        </section>
+        <section class="personagem-selecionado">
+            <img class="personagem-grande" src="src/imagens/card-ray.jpg" alt="Personagem Selecionado">
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem" id="nome-personagem">Rachel</h2>
+                <p class="descricao-personagem" id="descricao-personagem">
+                    Ela foi oferecida como um sacrifício para os floor masters do B6 ao B1.
+                </p>
+            </div>
+        </section>
+
+    </main>
+      <script src="src/js/index.js"></script>
+</body>
+
+</html>
